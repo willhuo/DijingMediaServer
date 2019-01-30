@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dijing.ComContext.Core" Version="1.1.6" />
+    <PackageReference Include="Dijing.Common.Core" Version="1.3.3" />
+    <PackageReference Include="Dijing.CommunicationHelper" Version="1.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dijing.RTSP\Dijing.RTSP.csproj" />
+  </ItemGroup>
+
+</Project>

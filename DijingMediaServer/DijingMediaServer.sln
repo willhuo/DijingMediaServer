@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dijing.Sound", "Dijing.Sound\Dijing.Sound.csproj", "{EE4917D8-B6E8-453E-A857-B560A97D08B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dijing.RTSP", "Dijing.RTSP\Dijing.RTSP.csproj", "{8AE064D7-8DD3-4F7C-A484-E21A2066ABCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dijing.RTSPClinet", "Dijing.RTSPClinet\Dijing.RTSPClinet.csproj", "{C3BC3BB1-F70C-4C25-B066-0E5098F1591B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE4917D8-B6E8-453E-A857-B560A97D08B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE4917D8-B6E8-453E-A857-B560A97D08B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE4917D8-B6E8-453E-A857-B560A97D08B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE4917D8-B6E8-453E-A857-B560A97D08B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AE064D7-8DD3-4F7C-A484-E21A2066ABCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AE064D7-8DD3-4F7C-A484-E21A2066ABCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AE064D7-8DD3-4F7C-A484-E21A2066ABCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AE064D7-8DD3-4F7C-A484-E21A2066ABCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3BC3BB1-F70C-4C25-B066-0E5098F1591B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3BC3BB1-F70C-4C25-B066-0E5098F1591B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3BC3BB1-F70C-4C25-B066-0E5098F1591B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3BC3BB1-F70C-4C25-B066-0E5098F1591B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
