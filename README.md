@@ -1,2 +1,2 @@
 # DijingMediaServer
-.net core 实现RTSP协议
+流媒体工具箱
