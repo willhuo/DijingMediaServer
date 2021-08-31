@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dijing.RTSPClinet", "Dijing
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PushStream", "PushStream\PushStream.csproj", "{CA2EED51-38DF-4317-A144-9C42E2107E03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PushStreamCore", "PushStreamCore\PushStreamCore.csproj", "{EA144FCF-CDF1-4093-A036-1F8B269E14EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PushStreamCore", "PushStreamCore\PushStreamCore.csproj", "{EA144FCF-CDF1-4093-A036-1F8B269E14EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qt-faststart", "qt-faststart\qt-faststart.csproj", "{D8EC2843-7733-4287-90C5-E1D7AD31B305}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{EA144FCF-CDF1-4093-A036-1F8B269E14EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA144FCF-CDF1-4093-A036-1F8B269E14EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA144FCF-CDF1-4093-A036-1F8B269E14EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8EC2843-7733-4287-90C5-E1D7AD31B305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8EC2843-7733-4287-90C5-E1D7AD31B305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8EC2843-7733-4287-90C5-E1D7AD31B305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8EC2843-7733-4287-90C5-E1D7AD31B305}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
